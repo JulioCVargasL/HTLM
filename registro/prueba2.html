@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOS</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOS</title>
 </head>
+
 <body>
-    
+  <div>
+    <label for="nombre">Nombre: </label>
+    <input type="text" name="nombre" required>
+  </div>
+  <form method="get" action="#">
+    <p>
+      <label for="apellidos">Apellidos: </label>
+      <input type="text" name="apellidos" required>
+      <label for="ciudad">Ciudad: </label>
+      <select multiple name="ciudad" id="ciudad" required>
+        <option value="city1">Bucaramanga</option>
+        <option value="city2">Floridablanca</option>
+        <option value="city3">Florian</option>
+        <option value="city4">Giron</option>
+        <option value="city5">Piedecuesta</option>
+      </select>
+    </p>
+
+  </form>
+  <div>
+    <label for="sexo">Sexo: </label>
+    <input type="text" name="sexo" required>
+  </div>
+
 </body>
+
 </html>
