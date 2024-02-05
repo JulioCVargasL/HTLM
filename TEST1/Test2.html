@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test 2: Mi primera web</title>
+</head>
+
+<body>
+  <h1>Mi primer titulo</h1>
+  <!--<h2>Mi segundo titulo</h2>
+  <h3>Mi tercer titulo</h3>
+  <h4>Mi cuarto titulo</h4>
+  <h5>Mi qinto titulo</h5>-->
+  <h6>h6 este es el sub nivel maximo de titulo o sub titulo</h6>
+  <p>la etiqueta p es para los parrafos</p>
+  <p>Si deseo un nuevo parrafo simplemente creo otra etiqueta p</p>
+  <form action="/formulario" method="POST">
+    <label for="nombre">Aqui tu </label>
+    <!-- frente a input si usamos la propiedad value="configuramos un valor por defecto"-->
+    <input type="text" name="nombre" id="nombre" placeholder="Name">
+    <br><br>
+    <label for="apellido">Aqui tu </label>
+    <input type="text" name="apellido" id="apellido" placeholder="Last name">
+    <br><br>
+    <label for="nombre">selecciona tu archivo</label>
+    <input type="file" name="file" id="file" placeholder="file">
+    <br><br>
+    <label for="comentario">Ingresa tus </label>
+    <br>
+    <textarea name="comentario" id="comentario" cols="50" rows="5" placeholder="comentarios"></textarea>
+    <!--Para colocar un valor por defecto en un textarea, debemos ir justo antes del cierre de la etiqueta >Y ponerr el comentario justo en medio de los simbolos ><<-->
+    <br><br>
+    <button type="reset">Hit reset !</button>
+    <br><br>
+    <input type="submit">
+
+  </form>
+  <hr>
+  <h2>La etiqueta hr nos ayuda a crear divisiones con lineas !</h2>
+  <!--Etiqueta de commentarios, no aparecen en los comentarios !!!-->
+  <p>
+    Este texto empleara la etiqueta span que puede emplearse para selecionar una parte del texto y <span
+      style="color: blue ;"> como por
+      ejemplo cambiar su color </span><br>La etiqueta br se emplea para hacer un salto de linea si agrgamos dos br
+    seguidas sera <br><br> un salto doble!
+  </p>
+  <!--La etiqueta de a nos sirve para crear un hypervinculo usando propiedad href para escribir la direccion de e-mail-->
+  <a href="https://www.google.com.co">Vamos a Google</a>
+  <!--gracias a la propiedad target="_blank" podemos abrir el enlace pero en una pestaña-->
+  <br>
+  <a target="_blank" href="https://www.google.com.co">ir a google pero en nueva pestaña </a>
+
+  <!--Para agregar imagenes utilizamos la etiqueta img-->
+  <img src="logo Orion.png" alt="Imagen ilustrativa" width="100
+  " />
+  <br>
+  <img src="Img/logo Orion 2.jpg" alt="Segunda imagen ilustrativa" height="100
+  ">
+  <!--Propiedades width y height se emplean para modificar el ancho y la altura respectivamante de la s imagenes-->
+  <form action=""></form>
+</body>
+
+</html>

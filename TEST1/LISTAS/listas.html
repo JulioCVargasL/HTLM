@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid blue;
+    }
+  </style>
+  <!--La etiqueta de style de arriba sirve para enmarcar las tablas y sus elementos con un borde del color que seleccionemos, asi podemos darle mejor orden visual a dichos elementos-->
+</head>
+
+<body>
+  <!--la etiqueta "ul" es una lista no ordenada -->
+  <ul>
+    <!--li es el elemnto de la lista (List Item)-->
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+  </ul>
+  <!--la etiqueta "ol" es una lista ordenada -->
+  <ol>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+  </ol>
+  <!--Value="20" sera el numero desde el que inicia la lista ordenada-->
+  <ol>
+    <li value="20">Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+  </ol>
+  <!--listas anidadas-->
+  <ol>
+    <li>Elemento 1</li>
+    <ol>
+      <li style="list-style-type: lower-alpha;">sub Elemento 1</li>
+      <li style="list-style-type: lower-alpha;">sub Elemento 2</li>
+      <li style="list-style-type: lower-alpha;">sub Elemento 3</li>
+      <li style="list-style-type: lower-alpha;">sub Elemento 4</li>
+    </ol>
+    <li>Elemento 2</li>
+    <ol>
+      <li style="list-style-type: georgian;">sub Elemento 1</li>
+      <li style="list-style-type: georgian;">sub Elemento 2</li>
+      <li style="list-style-type: georgian;">sub Elemento 3</li>
+      <li style="list-style-type: georgian;">sub Elemento 4</li>
+    </ol>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+  </ol>
+  <!--Tabla-->
+  <table style="width: 500px;">
+    <!--Al agregar Style="width: 500px"-->
+    <!--tr significa table row-->
+    <thead>
+      <tr>
+        <th>CODIGO</th>
+        <th>Nombre</th>
+        <th>Loads</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>HGTFRE</td>
+        <td>High Freight</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>LODCAD</td>
+        <td>Load Dot Canada</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>WEHUSA</td>
+        <td>We Haul USA</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>EGLFRG</td>
+        <td>Eagle Freight</td>
+        <td>12</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <td></td>
+      <td></td>
+      <td>total:
+        57</td>
+    </tfoot>
+  </table>
+</body>
+
+</html>
