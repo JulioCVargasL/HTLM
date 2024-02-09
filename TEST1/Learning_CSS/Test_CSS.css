@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../../assets/11.jpeg);
+}
+
+.form-register {
+  width: 400px;
+  background: #165ea7;
+  padding: 30px;
+  margin: auto;
+  margin-top: 200px;
+  border-radius: 20px;
+  font-family: 'Lucida Sans';
+  color: white; 
+  box-shadow: 7px 10px 35px #000;
+  opacity: .85;
+  
+}
+
+.form-register h1 {
+  font-size: 22pX;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.controls {
+  width: 100%;
+  background:#165ea7;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #a5c4e2;
+  font-family: 'Lucida Sans';
+  font-size: 18px;
+  color: white;
+}
+
+.text {
+  font-size: 16px;
+  font-family: 'Lucida Sans';
+  line-height: 40px;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+/* hover se emplea para que la accion se ejecute cuando tenemos el cursor sobre el elemento*/
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.form-register .botton {
+  width: 100%;
+  background: #d4c950;
+  border: none;
+  padding: 12px;
+  color: black;
+  margin: 16px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.form-register .botton:hover {
+  width: 100%;
+  background: #4ba1d0;
+  border: none;
+  padding: 12px;
+  color: black;
+  margin: 16px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+
+::placeholder{color: white;opacity: .8;}
