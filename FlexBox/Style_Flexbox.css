@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+}
+h2 {
+  font-size: 15px;
+}
+
+.container {
+  background-color: bisque;
+  /*"diplay: flex"contenedor ocupa todo el ancho de la pagina, los hijos ocupan solo el ancho que establecemos ex. 200px*, recalcula el ancho de los elemento al ancho de la pantalla*/
+  display: flex;
+  /*"display: inline flex" El contenedo se ajusta al ancho de nuestros elementos
+  display: inline-flex;*/
+  /*inline-flex necesitaria que definamos width:100%*/
+  height: 400px;
+}
+
+.container .box {
+  background-color: aqua;
+  height: 200px;
+  width: 200px;
+  /*Ejemplo con inline-flex, se genera un scroll horizontal
+  width: 800px;*/
+  border: 1px solid blueviolet;
+}
+/*Hasta aqui seciones basicas*/
+/*justify-content: distribucion horizontal dentro del contenedor
+align-items: distribucion vertical dentro del contenedor
+*/
+/**/
+#container-1 {
+  /*alinear todos los elemtos y los hubica en la posicion inicial*/
+  justify-content: flex-start;
+  align-items: start;
+}
+#container-2 {
+  /*Mover todos los elemtos al centro*/
+  justify-content: center;
+  align-items: center;
+}
+#container-3 {
+  /*alinear todos los elemtos y los hubica en la posicion final*/
+  justify-content: flex-end;
+  
+
+}
+#container-4 {
+  /*Se distribuyen toos los elementos a igual distancia a lo ancho de la pantalla*/
+  justify-content: space-between;
+  /*alinear elementos dependinedo del contenido*/
+  align-items: baseline;
+}
+.container .baseline{
+  height: 280px;
+}
+#container-5 {
+  /*distribuye espacios iguales entre los elemtos pero deja un espacio a los lados*/
+  justify-content: space-around;
+  /*si no se define la altura de los elemtos estos ocuparan todo el alto del contenerdor*/
+  align-items: stretch;
+}

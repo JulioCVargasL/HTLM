@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+}
+h2 {
+  font-size: 15px;
+}
+
+.container {
+  background-color: bisque;
+  display: flex;
+ /*flex-direction: column;*/
+}
+
+.container .box {
+  background-color: aqua;
+  height: 200px;
+  flex-basis: 300px;
+  border: 1px solid blueviolet;
+  
+}
+/*pseudo clase first of type*/
+.container .box:first-of-type {
+  flex-grow: 1;
+  flex-shrink: 5;
+}
