@@ -29,5 +29,5 @@ ul li a{
 }
 .form-register .button:hover{
   background: black;
-  
+  width: auto;
 }
