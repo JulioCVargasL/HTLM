@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Protest Guerrilla', sans-serif;
+  justify-items: center;
+}
+.form-register div {
+  margin-top: 10%;
+  background-color: aqua;
+  max-width: 100px;
+  margin: 0 auto;
+}
+header{
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+ul{
+  display: flex;
+  gap: 4rem;
+  list-style: none;
+
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.form-register .button:hover{
+  background: black;
+  
+}

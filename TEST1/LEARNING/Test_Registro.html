@@ -4,48 +4,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../Learning_CSS/Test_CSS.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../CSS_en_clase/ejercicio.css">
   <title>Test Registro</title>
 </head>
 
 <body>
-  <section class="form-register">
-    <h1>Formulario de registro</h1>
-    <div>
-      <input class="controls" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required>
-    </div>
-    <div>
-      <input class="controls" type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido" required>
-    </div>
-    <div>
-      <input class="controls" type="emial" name="email" id="email" placeholder="Ingresa tu e-mail" required><br>
-    </div>
-    <div>
-      <label class="text" for="date">fecha de nacimiento:</label>
-      <input class="controls" type="date" name="date" id="date" required>
-    </div>
-    <label for="ciudad">
-      <select class="controls" name="ciudad" id="ciudad">
-        <option value="bucaramanga">Bucaramanga</option>
-        <option value="floridablanca">Floridablanca</option>
-        <option value="giron">Giron</option>
-        <option value="piedecuesta">piedecuesta</option>
-      </select>
-    </label>
-    </div>
-    <div>
-      <input class="controls" type="password" name="password" id="password" placeholder="Crea tu Contraseña"
-        minlength="8" required>
-    </div>
-    <div>
+  <div>
+    <section class="form-register">
+      <h1>Formulario de registro</h1>
+      <div>
+        <input class="controls" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required>
+      </div>
+      <div>
+        <input class="controls" type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido" required>
+      </div>
+      <div>
+        <input class="controls" type="emial" name="email" id="email" placeholder="Ingresa tu e-mail" required><br>
+      </div>
+      <div>
+        <label class="text" for="date">fecha de nacimiento:</label>
+        <input class="controls" type="date" name="date" id="date" required>
+      </div>
+      <label for="ciudad">
+        <select class="controls" name="ciudad" id="ciudad">
+          <option value="bucaramanga">Bucaramanga</option>
+          <option value="floridablanca">Floridablanca</option>
+          <option value="giron">Giron</option>
+          <option value="piedecuesta">piedecuesta</option>
+        </select>
+      </label>
+  </div>
+  <div>
+    <input class="controls" type="password" name="password" id="password" placeholder="Crea tu Contraseña" minlength="8"
+      required>
+  </div>
+  <div>
 
-      <input class="botton" type="submit" value="Registrarme">
+    <input class="botton" type="submit" value="Registrarme">
 
-    </div>
-    <div>
-      <p><a href="#">¡Ya estoy registrado!</a></p>
-    </div>
+  </div>
+  <div>
+    <p><a href="#">¡Ya estoy registrado!</a></p>
+  </div>
   </section>
+  </div>
 
 
 
